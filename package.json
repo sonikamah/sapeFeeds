@@ -1,0 +1,29 @@
+{
+    "name": "sapefeeds",
+    "version": "1.0.0",
+    "description": "MEAN stack Impementation",
+    "main": "server.js",
+    "repository": "https://github.com/angular/angular-phonecat", 
+    "scripts": {
+    	"test": "karma start karma.conf.js",
+        "bundle": "webpack"
+    },
+    "author": "Sonika Maheshwari",
+    "license": "MIT",
+    "dependencies": {
+	  	"angular": "^1.4.5",
+	  	"angular-mocks": "latest",
+	    "angular-ui-router": "^0.2.15",
+	    "express": "^4.14.0",
+	    "jasmine-core": "^2.4.1",
+	    "karma": "^0.13.22",
+	    "karma-chrome-launcher": "^0.2.3",
+	    "karma-firefox-launcher": "^0.1.7",
+	    "karma-jasmine": "^0.3.8",
+	    "karma-junit-reporter": "^0.4.1",
+    	"body-parser": "^1.15.2",
+    	"morgan": "^1.7.0",
+        "mongoose" : "~3.8.0",
+    	"webpack-dev-server": "^1.4.7"
+  	}
+}
